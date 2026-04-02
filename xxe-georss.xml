@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed [
+  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+  <title>&xxe;</title>
+  <entry>
+    <title>Test Location</title>
+    <georss:point>45.256 -71.92</georss:point>
+  </entry>
+</feed>
